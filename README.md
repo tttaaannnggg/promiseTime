@@ -41,7 +41,7 @@ output: `<promise>`
 ### Example:
 ```
 const {timeResolution} = require('./index.js');
-timeresolution(<function>()).then(data=>{
+timeresolution(<promise or value>).then(data=>{
   console.log(data.time);
   return data.val;
 })
