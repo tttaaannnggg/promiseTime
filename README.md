@@ -2,7 +2,7 @@
 
 It's _promiseTime_!
 
-This is a small set of functions that deal with promises. You can import any of them from `index.js`. We have the following
+I created this small library to create a uniform interface to time functions (both promise-based and not). It won't handle callback-based functions unless you promisify them, though. This is achieved in `addTimer`, which wraps functions into promises that return both their value and runtime. `timeResolution` and `isPromise` are extra utilities that are part of `addTimer`, but also may prove useful on their own.
 
 - index.js
 - addTimer.js
