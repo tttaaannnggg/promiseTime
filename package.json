@@ -1,16 +1,19 @@
 {
-  "name": "prom",
+  "name": "prom-time",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's _promTime_!",
   "main": "index.js",
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tttaaannnggg/promiseTime.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tttaaannnggg/promiseTime/issues"
+  },
+  "homepage": "https://github.com/tttaaannnggg/promiseTime#readme"
 }
