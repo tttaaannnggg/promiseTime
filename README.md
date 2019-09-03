@@ -2,7 +2,9 @@
 
 It's _promiseTime_!
 
-I created this small library to create a uniform interface to time functions (both promise-based and not). It won't handle callback-based functions unless you promisify them, though. This is achieved in `addTimer`, which wraps functions into promises that return both their value and runtime. `timeResolution` and `isPromise` are extra utilities that are part of `addTimer`, but also may prove useful on their own. This repo includes the following:
+This is a small implementation of a uniform interface built to measure the runtime of synchronous and asynchronous (promise-based) functions. This is achieved in `addTimer`, which wraps functions into promises that return both their value and runtime. `timeResolution` and `isPromise` are extra utilities that are part of `addTimer`, but also may prove useful on their own. Note that the timing functionality won't work for callback-based async functions.
+
+This repo includes the following:
 
 - index.js
 - addTimer.js
