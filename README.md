@@ -20,7 +20,7 @@ This repo includes the following:
 
 Takes in a function, returns a version of the function that returns a promise that resolves to an object with a `val` and `time` on it. `time` is the elapsed time in ms from the promise's creation to its resolution. If the function's returned value is not a promise, it will be wrapped in a promise.
 
-input: `<function>`
+input: `<function>`  
 output: `<promise>`
 `output.then(data=>data): { val: <data> time: <time in ms> }`
 
@@ -39,7 +39,7 @@ timedFunction().then(data=>{
 
 Takes in a promise, and returns a promise that resolves to an object containing both the returned data from the promise and the time elapsed in ms. If the input value is not a promise, it creates a promise that will resolve to the output of the synchronous function. 
 
-input: `<value>`
+input: `<value>`  
 output: `<promise>`
 `output.then(data=>data): {val: <data>, time:<time in ms>}`
 
@@ -56,7 +56,7 @@ timeresolution(<promise or value>).then(data=>{
 
 takes a val, returns `true` if it's a promise (or at least has a `.then`), `false` if it doesn't.
 
-input: `<value>`
+input: `<value>`  
 output: `<boolean>`
 
 #### Example:
